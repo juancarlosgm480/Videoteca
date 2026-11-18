@@ -17,6 +17,6 @@ class ErrorController
     public static function show_error404(): void
     {
 
-        new Pages()->render('error/error404');
+        (new Pages())->render('error/error404');
     }
 }
